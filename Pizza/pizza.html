@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="pizza.css">
+        <script type="text/javascript" src="pizza.js"></script>
+        <title>Composition de votre pizza</title>
+
+    </head>
+
+    <body>
+
+        <h1>Composez votre pizza !</h1>
+
+        <h2>Sauce base pizza</h2>
+
+        <ul>
+            <li><input type="checkbox" name="article1" value="3" />
+Base tomate (3€)</li>
+            <li><input type="checkbox" name="article2" value="3" />
+Base crème fraiche (3€)</li>
+            <li><input type="checkbox" name="article3" value="4" />
+Base sauce barbeccue (4€)</li>
+            <li><input type="checkbox" name="article4" value="4" />
+Base sauce curry (4€)</li>
+        </ul>
+
+
+        <h2>Viandes</h2>
+
+
+        <ul>
+            <li><input type="checkbox" name="article5" value="2" />
+Steak (2€)</li>
+            <li><input type="checkbox" name="article6" value="3" />
+Poulet (3€)</li>
+            <li><input type="checkbox" name="article7" value="3" />
+Cordon bleu (3€)</li>
+            <li><input type="checkbox" name="article8" value="2" />
+Merguez (2€)</li>
+        </ul>
+
+        <h2>Cruditées</h2>
+
+        <ul>
+            <li><input type="checkbox" name="article9" value="2" />
+Poivrons (2€)</li>
+            <li><input type="checkbox" name="article10" value="1" />
+Oignons (1€)</li>
+            <li><input type="checkbox" name="article11" value="3" />
+Oeuf    (3€)</li>
+        </ul>
+
+        <h2>Boissons</h2>
+
+        <ul>
+            <li><input type="checkbox" name="article12" value="1" />
+Coca cola (1€)</li>
+            <li><input type="checkbox" name="article13" value="1" />
+Fanta (1€)</li>
+            <li><input type="checkbox" name="article14" value="1" />
+Sprite    (1€)</li>
+        </ul>
+
+
+<button onclick="calculateTotal()">Calculer le prix total</button>
+
+<h2>Prix total : <span id="total"></span>€</h2>
+
+    </body>
+</html>

@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color : yellow;
+}
+
+body {
+    background-size: cover;
+    background-image : url(italie.jpg)
+}
+
+h2 {
+    color: yellowgreen;
+
+}
+
+
+li {
+    color : white;
+
+}
